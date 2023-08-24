@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	width:600px;
+	height:230px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+/* 	border:2px solid black; */
+
+}
+.contleftt{
+	margin:15px;
+}
+.contright{
+	display:flex; 
+	flex-direction: column;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	
+}
+.contright button {
+	
+	width:60%;
+	color: white;
+	border:none;
+	background-color:red;
+}
+.contright button a{
+	color: white;
+	text-decoration:none;
+}
