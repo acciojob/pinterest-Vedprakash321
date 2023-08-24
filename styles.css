@@ -26,12 +26,14 @@
 }
 .contright button {
 	
-	width:60%;
+	
+	width:50%;
 	color: white;
 	border:none;
 	background-color:red;
 }
 .contright button a{
+
 	color: white;
 	text-decoration:none;
 }
