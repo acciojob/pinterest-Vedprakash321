@@ -5,35 +5,37 @@
 	box-sizing:border-box;
 }
 .container{
-	width:600px;
+
+	width:650px;
 	height:230px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-/* 	border:2px solid black; */
+
 
 }
-.contleftt{
+.contleftt img{
+	 width:420px;
+     height:200px;
+	object-fit: cover;
 	margin:15px;
 }
-.contright{
-	display:flex; 
-	flex-direction: column;
-	text-align:center;
-	justify-content:center;
-	align-items:center;
-	
+.contright h1{
+	font-size: 25px;
 }
+
+
 .contright button {
 	
+	text-decoration:none;
+	padding:8px;
+	background-color:#FF0001;
 	
-	width:50%;
-	color: white;
+	border-radius:5px;
 	border:none;
-	background-color:red;
 }
 .contright button a{
 
-	color: white;
+     color:white;
 	text-decoration:none;
 }
