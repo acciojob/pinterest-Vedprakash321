@@ -4,13 +4,12 @@
 	padding:0px;
 	box-sizing:border-box;
 }
-/* Reset some default styles */
+/* 
 body, h1, p, a {
     margin: 0;
     padding: 0;
 }
 
-/* Style the hero section container */
 .hero {
     display: flex;
     justify-content: center;
@@ -19,7 +18,7 @@ body, h1, p, a {
     background-color: #f0f0f0;
 }
 
-/* Style the hero image */
+
 .hero-image {
     width: 60%;
     height: auto;
@@ -28,27 +27,27 @@ body, h1, p, a {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Style the hero content */
+
 .hero-content {
     text-align: center;
     padding: 20px;
 }
 
-/* Style the hero heading */
+
 .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
     color: #333;
 }
 
-/* Style the hero description */
+
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 20px;
     color: #666;
 }
 
-/* Style the "Explore Now" button */
+
 .explore-button {
     display: inline-block;
     padding: 10px 20px;
@@ -62,9 +61,9 @@ body, h1, p, a {
 
 .explore-button:hover {
     background-color: #e65100;
-}
+} */
 
-/* .hero{
+.hero{
   
 	width:650px;
 	height:230px;
@@ -98,4 +97,4 @@ body, h1, p, a {
      aligh-items:center;
      color:white;
 	text-decoration:none;
-} */
+}
